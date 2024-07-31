@@ -27,12 +27,15 @@ public class UserPasswordAuthencationProvider implements AuthenticationProvider{
 		String password=(String)authentication.getCredentials();
 		System.out.println(userId);
 		System.out.println(password);
+		System.out.println();
 		Member loginMember=mapper.selectMemberById(userId);
 		System.out.println(loginMember);
 		//if(loginMember!=null&&pwencoder.matches(password, loginMember.getPassword())) {
 		if(loginMember!=null&&password.equals(loginMember.getPassword())) {
 			System.out.println("이우석");
+			
 			return new UsernamePasswordAuthenticationToken(loginMember,loginMember.getPassword(),loginMember.getAuthorities());
+			
 		}else {
 			throw new BadCredentialsException("인증실패");
 		}

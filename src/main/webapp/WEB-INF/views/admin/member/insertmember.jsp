@@ -7,36 +7,20 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+ <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-		<%@ include file="/WEB-INF/views/common/script_gather.jsp" %>
+	<%@ include file="/WEB-INF/views/admin/adminsidebar.jsp" %> 
+
+ 	<div class="main-panel">
 		<form action="${path}/admin/member/insertmemberend.do" method="post">
 		 <div class="container">
           <div class="page-inner">
-            <div class="page-header">
-              <h3 class="fw-bold mb-3">Forms</h3>
-              <ul class="breadcrumbs mb-3">
-                <li class="nav-home">
-                  <a href="#">
-                    <i class="icon-home"></i>
-                  </a>
-                </li>
-                <li class="separator">
-                  <i class="icon-arrow-right"></i>
-                </li>
-                <li class="nav-item">
-                  <a href="#">Forms</a>
-                </li>
-                <li class="separator">
-                  <i class="icon-arrow-right"></i>
-                </li>
-                <li class="nav-item">
-                  <a href="#">Basic Form</a>
-                </li>
-              </ul>
-            </div>
-            	<div class="form-group">
-            		<div class="form-group form-inline">
+          		<div class="page-header">
+          			<h3 class="fw-bold mb-3">회원등록</h3>
+          		</div>
+            	<div class="form-group "> 
+            		<div class="form-group " >
                           <label
                             for="memberName"
                             class="col-md-3 col-form-label"
@@ -53,7 +37,7 @@
                             />
                           </div>
                		</div>
-               		<div class="form-group form-inline">
+               		<div class="form-group">
                           <label
                             for="memberAddress"
                             class="col-md-3 col-form-label"
@@ -70,7 +54,7 @@
                             />
                           </div>
                		</div>
-               		<div class="form-group form-inline">
+               		<div class="form-group">
                           <label
                             for="memberPhone"
                             class="col-md-3 col-form-label"
@@ -87,7 +71,7 @@
                             />
                           </div>
                		</div>
-               		<div class="form-group form-inline">
+               		<div class="form-group">
                           <label
                             for="memberTell"
                             class="col-md-3 col-form-label"
@@ -105,7 +89,8 @@
                           </div>
                		</div>
 						<div class="form-group">
-                          <label for="memberEmail">Email Address</label>
+                          <label for="memberEmail" class="col-md-3 col-form-label">Email Address</label>
+                            <div class="col-md-9 p-0">
                           <input
                             type="email"
                             class="form-control"
@@ -115,9 +100,8 @@
 							required
                           />
                         </div>
-                        
-               		<div class="form-group">
-	            		<div class="form-group form-inline">
+                       </div>            
+	            		<div class="form-group">
 	                          <label
 	                            for="memberEnrollDate"
 	                            class="col-md-3 col-form-label"
@@ -133,8 +117,7 @@
 	                            />
 	                          </div>
                			</div>
-               		</div>
-               		
+
                		<!-- <div class="form-group">
 	            		<div class="form-group form-inline">
 	                          <label
@@ -154,8 +137,7 @@
                			</div>
                		</div> -->
                		
-               		<div class="form-group">
-	            		<div class="form-group form-inline">
+	            		<div class="form-group">
 	                          <label
 	                            for="memberBirthdate"
 	                            class="col-md-3 col-form-label"
@@ -171,12 +153,17 @@
 	                            />
 	                          </div>
                			</div>
-               		</div>
                         
                          <div class="form-group">
                           <label>Gender</label><br />
                           <div class="d-flex">
                             <div class="form-check">
+                              <label
+                                class="form-check-label"
+                                for="memberGender"
+                              >
+                                남
+                              </label>
                               <input
                                 class="form-check-input"
                                 type="radio"
@@ -185,14 +172,15 @@
                                 value="M"
 								required
                               />
+                            </div>
+                            &ensp;&ensp;&ensp;
+                            <div class="form-check">
                               <label
                                 class="form-check-label"
-                                for="memberGender"
+                                for="memberGender2"
                               >
-                                남
+                                여
                               </label>
-                            </div>
-                            <div class="form-check">
                               <input
                                 class="form-check-input"
                                 type="radio"
@@ -201,12 +189,6 @@
                                 value="F"
                                 required
                               />
-                              <label
-                                class="form-check-label"
-                                for="memberGender2"
-                              >
-                                여
-                              </label>
                             </div>
                           </div>
                         </div>
@@ -253,7 +235,7 @@
 	                           </c:if>
                           </select>
                         </div>
-                        <div class="form-group">
+                        <!-- <div class="form-group">
                           <label for="memberState"
                             >현황</label
                           >
@@ -261,13 +243,12 @@
                             class="form-select"
                             id="memberState"
                             name="memberState"
-							required
                           >
                             <option value="재직">재직</option>
                             <option value="휴직">휴직</option>
                             <option value="퇴사">퇴사</option>
                           </select>
-                        </div>
+                        </div>  -->
  
                        <div class="form-group">
                           <label class="form-label">권한</label>
@@ -313,9 +294,8 @@
             
            </div>
           </div>
- 
 		</form>
-		
-		
+		</div>
+
 </body>
 </html>

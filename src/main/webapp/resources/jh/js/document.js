@@ -4,7 +4,7 @@
 $(document).ready();
 const viewFormList =(no, name)=>{
 	$.ajax({
-		url: `${path}/document/formlist.do`,
+		url: `${path}/document/formlist`,
 		type: "post",
 		data: {"folderNo" : no},
 		success: function(data){
@@ -18,7 +18,11 @@ const viewFormList =(no, name)=>{
 				$("<i>").addClass('icon-drawer').appendTo($icondiv);
 				let $namediv = $("<div>").addClass('info-user ms-3');
 				$("<div>").addClass('username text-start').text(e.ER_FORM_NAME).appendTo($namediv)
-				let $button = $("<button>").addClass('btn item-list border rounded w-100 mb-2').attr('onclick', `writedoc(${e.ER_FORM_KEY});`);
+				let $button = $("<button>").addClass('btn item-list border rounded w-100 mb-2')
+								.attr({
+									'onclick': `writedoc(${e.ER_FORM_KEY})`,
+									'data-folder-key' : `${no}`
+									});
 				$icondiv.appendTo($button);
 				$namediv.appendTo($button);
 				$button.appendTo($("div#formlist"));
@@ -30,7 +34,7 @@ $("#formsearchbtn").click(e=>{
 	let target = $("#formsearchtarget").val();
 	console.log(target);
 	$.ajax({
-		url: `${path}/document/formsearch.do`,
+		url: `${path}/document/formsearch`,
 		type: "post",
 		data: {"target" : target},
 		success: function(data){
