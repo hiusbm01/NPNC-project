@@ -75,8 +75,5 @@ public class AdminDocumentDao {
 	public Storage selectStorage(SqlSessionTemplate session, int storageKey) {
 		return session.selectOne("admindoc.selectStorage",storageKey);
 	}
-	public int updateStorageFolder(SqlSessionTemplate session,StorageFolder storageFolder) {
-		return session.update("admindoc.updateStorageFolder",storageFolder);
-	}
 
 }

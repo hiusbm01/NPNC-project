@@ -524,8 +524,7 @@
 					
 		             var myChatRoomList;
 		                $(document).ready(function() {
-		            	     event.stopPropagation();
-
+		   
 		                         headerUnread();
 
 		                   
@@ -607,8 +606,8 @@
                       aria-labelledby="messageDropdown">
                       <li>
                         <div class="dropdown-title d-flex justify-content-between align-items-center">
-                          메신저
-                          <!-- <a href="#" class="small">Mark all as read</a> -->
+                          Messages
+                          <a href="#" class="small">Mark all as read</a>
                         </div>
                       </li>
                       <li>
@@ -620,6 +619,11 @@
                             
                           </div>
                         </div> 
+                      </li>
+                      <li>
+                        <a class="see-all" href="javascript:void(0);"
+                          >See all messages<i class="fa fa-angle-right"></i>
+                        </a>
                       </li>
                     </ul>
                   </li>
