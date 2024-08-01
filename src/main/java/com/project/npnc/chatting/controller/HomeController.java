@@ -98,6 +98,7 @@ public class HomeController {
 		List<Member>members = service.selectAllMembers();	
 		model.addAttribute("members",members);
 		
+		System.out.println("mychatRoomListmychatRoomListmychatRoomList"+mychatRoomList);
 		
 		return "chatting/chatRoom";
 	}
