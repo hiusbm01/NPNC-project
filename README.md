@@ -1,4 +1,4 @@
-
+<img width="2000" height="907" alt="image" src="https://github.com/user-attachments/assets/6f3dce0b-38a5-4629-9d77-0cc5670dc75b" />
 NPNC(범기업용 그룹웨어)
 
 * 다양한 기관들이 범용적으로 사용할 수 있는 그룹웨어 웹어플리케이션
@@ -71,4 +71,4 @@ NPNC(범기업용 그룹웨어)
 
 ## ERD
 
-<img width="2000" height="907" alt="image" src="https://github.com/user-attachments/assets/24478712-e9e8-477b-ab32-a352300be55d" />
+<img width="2000" height="907" alt="image" src="https://github.com/user-attachments/assets/03fc8ee8-8de7-4e71-84a0-46093da0bc2a" />
