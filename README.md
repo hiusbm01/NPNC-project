@@ -72,8 +72,3 @@ NPNC(범기업용 그룹웨어)
 ## ERD
 
 <img width="2000" height="907" alt="image" src="https://github.com/user-attachments/assets/24478712-e9e8-477b-ab32-a352300be55d" />
-
-
-![41](assets/41.jpg)
-![42](assets/42.jpg)
-![43](assets/43.jpg)
