@@ -3,7 +3,7 @@ NPNC(범기업용 그룹웨어)
 
 * 다양한 기관들이 범용적으로 사용할 수 있는 그룹웨어 웹어플리케이션
 * 클라우드 활용 자바개발자 양성과정 팀 프로젝트 우수상 수상
-![Uploading image.png…]()
+
 
 
 ## 프로젝트 개요
@@ -15,10 +15,6 @@ NPNC(범기업용 그룹웨어)
 - 개발인원: 총 6명
 
 팀명 : NPNC(NoPainNoCode)
-
-| 팀장 | 팀원 | 팀원 | 팀원 | 팀원 | 팀원 |
-| --- | --- | --- | --- | --- | --- |
-| [박진형](https://github.com/JinHyung-dev) | [김혜정](https://github.com/kimhyejeongd) | [서보민](https://github.com/hiusbm01) | [이기수](https://github.com/Kisoo123) | [이성록](https://github.com/evergreen93) | [이우석](https://github.com/lws9) |
 
 ## 목적 및 기대효과
 
@@ -74,44 +70,10 @@ NPNC(범기업용 그룹웨어)
 ![ERDCloud](https://img.shields.io/badge/ERDCloud-FF9800?style=flat-square)
 
 ## ERD
-![7](assets/7.jpg)
 
-## 와이어프레임 & 디자인
-![8](assets/8.jpg)
+<img width="2000" height="907" alt="image" src="https://github.com/user-attachments/assets/24478712-e9e8-477b-ab32-a352300be55d" />
 
-## 프로젝트 기능
-![9](assets/9.jpg)
-![10](assets/10.jpg)
-![11](assets/11.jpg)
-![12](assets/12.jpg)
-![13](assets/13.jpg)
-![14](assets/14.jpg)
-![15](assets/15.jpg)
-![16](assets/16.jpg)
-![17](assets/17.jpg)
-![18](assets/18.jpg)
-![19](assets/19.jpg)
-![20](assets/20.jpg)
-![21](assets/21.jpg)
-![22](assets/22.jpg)
-![23](assets/23.jpg)
-![24](assets/24.jpg)
-![25](assets/25.jpg)
-![26](assets/26.jpg)
-![27](assets/27.jpg)
-![28](assets/28.jpg)
-![29](assets/29.jpg)
-![30](assets/30.jpg)
-![31](assets/31.jpg)
-![32](assets/32.jpg)
-![33](assets/33.jpg)
-![34](assets/34.jpg)
-![35](assets/35.jpg)
-![36](assets/36.jpg)
-![37](assets/37.jpg)
-![38](assets/38.jpg)
-![39](assets/39.jpg)
-![40](assets/40.jpg)
+
 ![41](assets/41.jpg)
 ![42](assets/42.jpg)
 ![43](assets/43.jpg)
